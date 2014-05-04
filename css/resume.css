@@ -1,0 +1,41 @@
+#resume-content h1 {
+  margin-top: -10px;
+  margin-bottom: -10px;
+  font-size: 34pt; }
+#resume-content .row {
+  float: left;
+  vertical-align: middle;
+  margin-bottom: 20px; }
+#resume-content .row-info {
+  display: table-cell;
+  height: 100px;
+  vertical-align: middle; }
+  #resume-content .row-info .row-content {
+    display: inline-block;
+    font-size: 12pt; }
+  #resume-content .row-info .time {
+    font-size: 18pt;
+    font-weight: 700; }
+  #resume-content .row-info .bold {
+    font-weight: 700; }
+#resume-content #education-icon {
+  float: left;
+  margin-right: 10px;
+  width: 36px;
+  height: 36px; }
+#resume-content #cmu-logo {
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 100px;
+  height: 100px; }
+#resume-content #scs-logo {
+  float: left;
+  width: 120px;
+  height: 100px; }
+#resume-content #ms-logo {
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 100px;
+  height: 100px; }

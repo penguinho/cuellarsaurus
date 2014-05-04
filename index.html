@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mainApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Economica:400,700,400italic,700italic|Ropa+Sans|Bangers' rel='stylesheet' type='text/css'>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular-route.js"></script>
+    <script src="js/controller.js"></script>
+    <title>cuellarsaur.us</title>
+</head>
+<body ng-controller="MainCtrl">
+    <div ng-include src="'views/nav.html'"></div>
+    <div id="main-content-view" class="container">
+        <div ng-view></div>
+    </div>
+    <div class="footer" class="navbar navbar-fixed-bottom">
+        &copy;2014 Dan Cuellar
+        &bull;
+        <a href="https://twitter.com/thedancuellar" target="_blank">@thedancuellar</a>
+        &bull;
+        <a href="https://github.com/penguinho" target="_blank">GitHub</a>
+        &bull;
+        <a href="http://www.linkedin.com/pub/dan-cuellar/3b/8a3/b57/" target="_blank">LinkedIn</a>
+    </div>
+</body>
+</html>

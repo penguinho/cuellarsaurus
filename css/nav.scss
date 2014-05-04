@@ -1,0 +1,30 @@
+.navbar-default {
+  background-color : $green;
+  color : $orange;
+  font-family: 'Economica', sans-serif;
+  font-weight: 700;
+  font-size: 16pt;
+
+  .navbar-brand, .navbar-brand:hover {
+    font-size: 24pt;
+    color : $orange;
+  }
+  .navbar-nav > li.active > a {
+    color: $green;
+    background-color: $orange;
+    box-shadow: 0px 0px 8px lighten($orange,10%);
+  }
+
+  .navbar-nav > li.active > a:hover {
+    color: $green;
+    background-color: $orange;
+    box-shadow: 0px 0px 8px lighten($orange,10%);
+    text-shadow: 2px 2px 1px $dark-grey;
+  }
+
+  .navbar-nav > li > a:hover {
+    color: orange;
+    background-color: $green;
+  }
+
+}

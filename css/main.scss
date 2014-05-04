@@ -1,0 +1,42 @@
+
+@import "globals";
+@import "nav";
+@import "homepage";
+@import "resume";
+
+div#main-content-view {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 95%;
+}
+
+hr {
+  border: 1px solid $dark-grey;
+  width: 100%;
+}
+
+body html {
+  height:100%;
+}
+.container {
+  min-height:100%;
+}
+
+div.footer{
+  height: 20px;
+  width: 100%;
+  padding-left: 15px;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  background: $green;
+  color: $dark-grey;
+  font-family: 'Ropa Sans', sans-serif;
+
+  a, a:visited, a:active {
+    color: $orange;
+  }
+  a:hover {
+    text-shadow: 1px 1px 1px $light-grey;
+    text-decoration: none;
+  }
+}

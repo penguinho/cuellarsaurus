@@ -1,0 +1,47 @@
+#homepage-content h1, #homepage-content h2, #homepage-content h3 {
+  font-family: 'Bangers', cursive; }
+#homepage-content h1 {
+  font-size: 34pt; }
+#homepage-content h2 {
+  font-size: 24pt; }
+#homepage-content h3 {
+  font-size: 18pt; }
+#homepage-content p {
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 12pt; }
+#homepage-content .heading-row {
+  max-width: 800px;
+  overflow: hidden;
+  margin: 0 auto; }
+  #homepage-content .heading-row .headshot {
+    float: left;
+    margin-right: 12px;
+    width: 178px;
+    padding-bottom: 1000px;
+    margin-bottom: -1000px; }
+    #homepage-content .heading-row .headshot #homepage-headshot {
+      width: 178px;
+      height: 215px;
+      box-shadow: 2px 2px 4px #555555; }
+  #homepage-content .heading-row .headline {
+    float: left;
+    max-width: 500px; }
+    #homepage-content .heading-row .headline h1 {
+      margin-top: 0px;
+      text-shadow: 2px 2px 1px #ccff99; }
+    #homepage-content .heading-row .headline h3 {
+      margin-top: -12px;
+      text-shadow: 2px 2px 1px #cccccc; }
+#homepage-content #projects-section {
+  max-width: 800px;
+  overflow: hidden;
+  margin: 0 auto; }
+  #homepage-content #projects-section h2 {
+    margin-top: 10px;
+    margin-bottom: -15px;
+    text-shadow: 2px 2px 1px #cccccc; }
+  #homepage-content #projects-section #appium-logo {
+    width: 189px;
+    height: 46px;
+    margin-top: -5px;
+    margin-bottom: 5px; }
