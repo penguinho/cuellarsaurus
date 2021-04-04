@@ -1,7 +1,5 @@
-application: cuellarsaurus
-version: 1
-runtime: python27
 api_version: 1
+runtime: python27
 threadsafe: true
 
 skip_files:
